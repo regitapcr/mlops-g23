@@ -1,17 +1,873 @@
-<!doctype html>
-<html lang="id">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NovaVision Lab</title>
-  <style>body{font-family:system-ui;margin:0;background:#eef6ff;color:#153c5d}main{max-width:720px;margin:72px auto;padding:32px;background:white;border-radius:18px}.tag{color:#1478b8;font-weight:700}</style>
-</head>
-<body>
-  <main>
-    <p class="tag">MLOps Lab · Frontend</p>
-    <h1>Halo dari GitHub Pages!</h1>
-    <p>Halaman ini dikirim otomatis oleh GitHub Actions.</p>
-    <p>Perubahan kode → commit → push → deploy.</p>
-  </main>
-</body>
-</html>
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Sistem Informasi - Academic Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;scroll-behavior:smooth;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#002e6a","outline":"#8c909f","surface-container-high":"#242a3a","surface":"#0d1322","inverse-on-surface":"#2a3040","on-secondary-fixed":"#00174b","on-primary-fixed":"#001a42","surface-dim":"#0d1322","primary-fixed-dim":"#adc6ff","on-surface":"#dde2f8","tertiary-container":"#4c93e7","tertiary":"#a4c9ff","secondary-fixed-dim":"#b4c5ff","error":"#ffb4ab","on-primary-fixed-variant":"#004395","primary":"#adc6ff","primary-fixed":"#d8e2ff","inverse-primary":"#005ac2","surface-container-highest":"#2f3445","primary-container":"#4d8eff","surface-container-low":"#151b2b","on-error-container":"#ffdad6","error-container":"#93000a","surface-container-lowest":"#080e1d","surface-tint":"#adc6ff","on-secondary-container":"#cdd7ff","on-tertiary":"#00315d","secondary":"#b4c5ff","tertiary-fixed":"#d4e3ff","on-primary-container":"#00285d","surface-bright":"#33394a","surface-container":"#191f2f","secondary-fixed":"#dbe1ff","on-secondary":"#002a78","surface-variant":"#2f3445","on-background":"#dde2f8","on-secondary-fixed-variant":"#003ea8","on-surface-variant":"#c2c6d6","secondary-container":"#0053db","inverse-surface":"#dde2f8","on-tertiary-fixed-variant":"#004883","on-tertiary-container":"#002a51","on-tertiary-fixed":"#001c39","background":"#0d1322","on-error":"#690005","tertiary-fixed-dim":"#a4c9ff","outline-variant":"#424754"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-lg":"1.5rem","space-xs":"0.25rem","margin-mobile":"1.25rem","gutter-sm":"1rem","space-xl":"2.5rem",margin:"2rem","space-sm":"0.5rem","space-md":"1rem",gutter:"1.5rem"},fontFamily:{"headline-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-badge":["Plus Jakarta Sans"]},fontSize:{"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.025em",fontWeight:"700"}],"body-md":["16px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"headline-xl-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"800"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.02em",fontWeight:"600"}],"body-sm":["14px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"400"}],"label-badge":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl border-b border-outline-variant/30"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #3b82f6
+- Font: plusJakartaSans
+- Mode: dark
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XPoiGvbKVu6ttCGkkntzWY6-UNqeU07R5JmDgH1_5pT41-GOi14jDWb_60g9ZthYerexgn77rkJSvhax3fiE4oYM_Hfg36xVG3a8mGxK1OMo6xaVLkmnPPeV7jbdDDMBAw4ez26fkcSCkPtWAHeuAZrcu-LhDxm_wAw-VKp8s4t7famwL2cGS4BVu-ZkBIzd3Czy2gXlJWYvOrXC25UJE-OymS9vfrPGRD6z-hPLG6daJirBvtY2zLHeU"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Sistem Informasi</span><span class="font-label-md text-label-md text-primary tracking-widest uppercase">Faculty of Computer Science</span></div></div><nav class="hidden lg:flex items-center gap-space-xs p-1 rounded-xl bg-surface-container-low/70 border border-outline-variant/20" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg shadow-sm"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-surface-container-high text-primary font-bold rounded-lg shadow-sm" data-path="home" href="#">Home</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="tentang" href="#">Tentang</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="akademik" href="#">Akademik</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="keunggulan" href="#">Keunggulan</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="kegiatan" href="#">Kegiatan</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="kontak" href="#">Kontak</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-[0_0_20px_rgba(77,142,255,0.25)] hover:shadow-[0_0_28px_rgba(77,142,255,0.45)]" href="#explore"><span class="material-symbols-outlined text-[18px]">explore</span><span>Explore Program</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full text-on-surface">
+<!-- Top Ambient Glow Accents -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/4 w-[580px] h-[580px] bg-primary/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-10 w-[420px] h-[420px] bg-secondary-container/20 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<!-- ==================== 1. HERO SECTION ==================== -->
+<section class="max-w-7xl mx-auto px-margin pt-12 pb-24 lg:pt-16 lg:pb-28">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Left Column -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<!-- Glowing Badge -->
+<div class="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-primary/10 shadow-[inset_0_0_12px_rgba(77,142,255,0.18)]">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary tracking-wider uppercase">Program Studi Sistem Informasi</span>
+</div>
+<!-- Main Hero Typography -->
+<div class="flex flex-col gap-space-sm">
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+              Membangun <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-tertiary to-secondary">Talenta Digital</span> untuk Masa Depan
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Program studi unggulan yang memadukan teknologi informasi terkini, analisis sistem komprehensif, dan strategi bisnis modern untuk mencetak inovator masa depan di era kecerdasan artifisial.
+            </p>
+</div>
+<!-- Interactive CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-2">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-[0_0_24px_rgba(77,142,255,0.35)] hover:shadow-[0_0_36px_rgba(77,142,255,0.55)]" href="#tentang">
+<span>Kenali Program Studi</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg transition-all shadow-sm" href="#kegiatan">
+<span class="material-symbols-outlined text-[18px] text-primary">feed</span>
+<span>Lihat Informasi</span>
+</a>
+</div>
+<!-- Key Metrics Deck -->
+<div class="grid grid-cols-3 gap-space-md pt-6">
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<span class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">98%</span>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">Keterserapan Kerja Lulusan</span>
+</div>
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Unggul</span>
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">Akreditasi BAN-PT Resmi</span>
+</div>
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<span class="font-headline-xl text-headline-xl text-tertiary font-bold tracking-tight">45+</span>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">Mitra Tech Enterprise</span>
+</div>
+</div>
+</div>
+<!-- Hero Right Column (Lab Image & Floating Telemetry) -->
+<div class="lg:col-span-6 relative">
+<div class="relative w-full h-[520px] rounded-2xl overflow-hidden bg-surface-container-lowest shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+<!-- Background Image -->
+<img alt="Laboratorium Riset Komputer dan Analisis Sistem Informasi dengan mahasiswa berinteraksi di meja kerja cerdas" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1V_x7YTwpAY9WdO5vMkTdYcuXn0z8xLck9Juk-cUDPxVjMR0Rh_BNez4Cyo63fGiVT9JATsitF0ta8AgFuzKHGCthX8phvGt7qvZ2CpeVz-1-FRY7pab36_qTXP0yzKxeF-7Jwbd5qv3ohGQNhFqCeH9s9EPDqMUD-5ZwErDZkCpHR0cFDganP8kvwTDaU-ywk2qPATFqBwzRla3aEi25mMssqODTEFyWxmMmkVDezTIftLz2UQ-Bw3Lw"/>
+<!-- Deep Scrim / Linear Gradient -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<!-- Glowing Top Border Accent -->
+<div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-80"></div>
+<!-- Floating Pill 1: Top Left -->
+<div class="absolute top-6 left-6 flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface/90 backdrop-blur-md shadow-lg">
+<div class="w-6 h-6 rounded-lg bg-primary-container/30 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface leading-tight">Terakreditasi Unggul</span>
+<span class="font-label-badge text-label-badge text-outline">SK BAN-PT No. 4921/2023</span>
+</div>
+</div>
+<!-- Floating Badge 2: Top Right -->
+<div class="absolute top-6 right-6 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high/90 backdrop-blur-md shadow-md">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span>
+<span class="font-label-badge text-label-badge text-tertiary uppercase tracking-wider">Kurikulum Berbasis Industri</span>
+</div>
+<!-- Floating Card 3: Bottom Left -->
+<div class="absolute bottom-6 left-6 right-6 p-space-md rounded-xl bg-surface-container/90 backdrop-blur-xl shadow-xl flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">dns</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+<span class="font-label-lg text-label-lg text-on-surface truncate">Lab Enterprise AI &amp; Cloud Computing</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Sesi Kolaborasi Praktikum Real-Time Terjadwal</span>
+</div>
+</div>
+<span class="hidden md:inline-flex px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-badge text-label-badge tracking-wider">AKTIF</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 2. TENTANG PROGRAM STUDI ==================== -->
+<section class="w-full bg-surface-container-lowest/60 py-24" id="tentang">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left side: Narrative & Context -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-badge text-label-badge tracking-widest uppercase">
+              TENTANG KAMI
+            </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+              Membentuk Pemimpin Inovasi &amp; Arsitek Solusi Digital
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Program Studi Sistem Informasi berfokus pada jembatan strategis antara kapabilitas teknologi komputasi mutakhir dan kebutuhan organisasi skala enterprise. Kami tidak hanya mengajarkan sintaks pemrograman, melainkan cara menstrukturkan ekosistem sistem yang berdampak nyata.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Didukung laboratorium komputasi awan, pusat analisis data pintar, dan jejaring praktisi industri multinasional, mahasiswa kami terlatih mengarungi tantangan transformasi digital dengan integritas, inovasi, dan presisi teknis.
+            </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors group" href="#keunggulan">
+<span>Pelajari Struktur Kurikulum Lengkap</span>
+<span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Right side: Visi & Misi Cards -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Visi Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low shadow-md relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-3 mb-space-sm">
+<span class="w-8 h-8 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</span>
+<span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Visi Program Studi</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm text-on-surface font-medium leading-relaxed italic">
+                “Menjadi pusat keunggulan pendidikan sistem informasi berstandar internasional yang berorientasi pada kewirausahaan digital dan inovasi teknologi berkelanjutan pada tahun 2030.”
+              </blockquote>
+</div>
+<!-- Misi Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low shadow-md">
+<div class="flex items-center gap-3 mb-space-md">
+<span class="w-8 h-8 rounded-lg bg-secondary-container/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">flag</span>
+</span>
+<span class="font-label-lg text-label-lg text-secondary uppercase tracking-wider">Misi Utama</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Pendidikan Berbasis Proyek Industri</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menyelenggarakan proses pembelajaran berbasis Outcome-Based Education (OBE) dengan kurikulum yang terkalibrasi bersama asosiasi profesi dan tech giants.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Riset Aplikatif Solutif Skala Global</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menghasilkan publikasi riset bereputasi dan produk rekayasa sistem yang memecahkan masalah efisiensi publik serta keberlanjutan bisnis.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Sinergi Ekosistem Tech Startup &amp; Korporasi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mengembangkan kemitraan magang komprehensif, inkubasi bisnis rintisan teknologi mahasiswa, dan hilirisasi solusi digital terintegrasi.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 3. KEUNGGULAN PROGRAM STUDI ==================== -->
+<section class="max-w-7xl mx-auto px-margin py-24" id="keunggulan">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-badge text-label-badge tracking-widest uppercase mb-space-sm">
+          KEUNGGULAN UTAMA
+        </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mb-space-sm">
+          Mengapa Memilih Program Studi Sistem Informasi?
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Pilar komprehensif yang memadukan keunggulan rekayasa perangkat lunak, optimasi alur bisnis, serta kepemimpinan strategi digital berdaya saing global.
+        </p>
+</div>
+<!-- 4-Column Bento/Grid System -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Card 1: Teknologi Informasi -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 group-hover:bg-primary-container/30 flex items-center justify-center text-primary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">terminal</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Teknologi Informasi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Penguasaan stack komputasi awan modern, pipeline Big Data Analytics, arsitektur microservices enterprise, dan integrasi Artificial Intelligence terapan.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#Cloud</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#AI</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#EnterpriseSoftware</span>
+</div>
+</div>
+<!-- Card 2: Analisis Sistem -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container/20 group-hover:bg-tertiary-container/30 flex items-center justify-center text-tertiary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">account_tree</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Analisis Sistem</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Metodologi analisis kebutuhan bisnis mendalam, Business Process Reengineering (BPR), pemodelan UML &amp; BPMN, serta perancangan arsitektur enterprise terstruktur.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#SystemAnalysis</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#BPMN</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#EnterpriseArch</span>
+</div>
+</div>
+<!-- Card 3: Dunia Bisnis -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 group-hover:bg-secondary-container/30 flex items-center justify-center text-secondary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">monitoring</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Dunia Bisnis</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Perumusan strategi TI, manajemen produk digital, tata kelola IT berbasis framework COBIT &amp; ITIL, serta inkubasi technopreneurship startup berskala tinggi.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#DigitalProduct</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#ITGovernance</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#Technopreneur</span>
+</div>
+</div>
+<!-- Card 4: Kolaborasi Industri -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-primary/20 group-hover:bg-primary/30 flex items-center justify-center text-primary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">groups</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Kolaborasi Industri</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Kemitraan strategis tech unicorns ternama, program magang bersertifikat MSIB, bimbingan langsung praktisi C-Level, dan proyek capstone industri nyata.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#MSIB</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#IndustryMentor</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#CapstoneRealWorld</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 4. INFORMASI DAN KEGIATAN TERBARU ==================== -->
+<section class="w-full bg-surface-container-lowest/70 py-24" id="kegiatan">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-12">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-badge text-label-badge tracking-widest uppercase mb-2">
+              UPDATE &amp; AKTIVITAS
+            </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+              Informasi &amp; Kegiatan Terbaru
+            </h2>
+</div>
+<!-- Category Filter Pills (Functional micro-interaction) -->
+<div class="inline-flex p-1 rounded-xl bg-surface-container-low shadow-sm" id="filter-container">
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg bg-surface-container-high text-primary font-semibold transition-colors" data-filter="semua" onclick="filterNews('semua')">Semua</button>
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="berita" onclick="filterNews('berita')">Berita Terkini</button>
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="kegiatan" onclick="filterNews('kegiatan')">Kegiatan Mahasiswa</button>
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="prestasi" onclick="filterNews('prestasi')">Prestasi</button>
+</div>
+</div>
+<!-- 3-Column Visual Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Berita -->
+<div class="news-item group flex flex-col rounded-2xl bg-surface-container-low overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-cat="berita">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern tech executive lecturing university students inside an auditorium with panoramic screens displaying enterprise architecture diagrams and artificial intelligence neural network models, dramatic blue stage lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6dUYvtTrbejPEE2AU2TexKSmZHjwdXyey5afkFcTFj9Vi5DJDittrjS8NOMAM_erVFTUv1falFB_Vk57jvnlEibumxU7QVdXJwUWKjefbPeDJaHG-kvM5YehZo9pmPS-LbwQizIvyTbPpajzNi1FoBXfGYbEM3L7aYnzKifeQxL_SrJRgjoGQZraU5h3If73WaTTKzoAA5Mx3ke7oxOqwnsUNiTGosbeyWGHBvPxvnHLxS5FK_-y3"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md text-primary font-label-badge text-label-badge">KULIAH TAMU</span>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>14 Oktober 2024</span>
+<span>•</span>
+<span>Divisi Enterprise Tech</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-space-xs">
+                  Transformasi AI dalam Enterprise Architecture bersama CTO Perusahaan Unicorn
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-space-md">
+                  Mengupas bagaimana implementasi Large Language Models dan automated data pipelines mengubah pengambilan keputusan di arsitektur perusahaan skala masif.
+                </p>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors" href="#">
+<span>Baca Ulasan Lengkap</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Kegiatan -->
+<div class="news-item group flex flex-col rounded-2xl bg-surface-container-low overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-cat="kegiatan">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intensive collaborative hackathon in a dark cyber lab room with neon blue ambient glow, university software engineering students working late with laptops, dual monitors displaying code and graphs." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqRMuLu-HqzSyIzD1oyekZzJp9lsw6jN83skQy3iDY1tM9dQV1lflCjYcgpqWpPI2o_2Gh3YcD5GyxZnM0_Kvk_RLxxKBTvpnrZ9PqWQXVLGOQdrbHhCJlnvnzcjAg-iUedlMMVzmpnsFeZhhSrqUZnciBuSXUrkai4ohkubkHvE9RLUAIPb0rhAiYIS8nZQAdrlRxN-Cpr1ihKvd5GrEOSfefgD5XTq9CxsPxQQcKMGb6ow1NqTth"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md text-tertiary font-label-badge text-label-badge">HACKATHON</span>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>28 September 2024</span>
+<span>•</span>
+<span>Himpunan Mahasiswa SI</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-space-xs">
+                  SI Hackathon 2024: Solusi Digital Cerdas untuk Smart Campus &amp; Green Energy
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-space-md">
+                  Kompetisi rekayasa produk 48 jam tanpa henti menghasilkan 18 purwarupa IoT dan analitika berbasis AI untuk efisiensi energi kampus ramah lingkungan.
+                </p>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors" href="#">
+<span>Dokumentasi &amp; Pemenang</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3: Prestasi -->
+<div class="news-item group flex flex-col rounded-2xl bg-surface-container-low overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-cat="prestasi">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="University student tech delegation holding trophies and innovation award certificate on a grand auditorium stage, smart casual attire, dark blue corporate background with championship banners." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt2U1sOAiQ1Ui0x4jnZlwF4_nYgDRyIWE3IHYFw-riLtsIpDftmXbpERqZHEwUgrnDBaUrhxTqkUR7_omi8OiHzw7ywgr8cZQbpYesaMmwqMRoYqQydOQ2PUWGGQ1zWpwA4cMx55C4n9a2r6KurLtrgLiynwkHEXvQQRAkECwD8Wp-pNaXk9Fn9manDWs31Wg4a4u5qykSyzAU9rq5ctC8SIv8gj-ud4CvIaUQfO7tbaDNWzMy99L7"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md text-secondary font-label-badge text-label-badge">PRESTASI EMAS</span>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>05 September 2024</span>
+<span>•</span>
+<span>Kompetisi Nasional ITB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-space-xs">
+                  Juara 1 National Business IT Case Competition di ITB
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-space-md">
+                  Tim mahasiswa Sistem Informasi menyabet medali emas lewat inovasi rantai pasok berbasis smart contract blockchain untuk ketahanan pangan nasional.
+                </p>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors" href="#">
+<span>Profil Tim Juara</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 5. CALL TO ACTION (CTA) ==================== -->
+<section class="max-w-7xl mx-auto px-margin py-20">
+<div class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-surface-container via-surface-container-low to-surface-container-lowest p-10 md:p-16 lg:p-20 shadow-[0_20px_50px_rgba(0,0,0,0.6)]">
+<!-- Ambient Radial Highlight -->
+<div class="absolute -right-20 -bottom-20 w-[480px] h-[480px] bg-primary-container/20 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute left-1/4 top-0 w-80 h-80 bg-secondary-container/20 rounded-full blur-[90px] pointer-events-none"></div>
+<div class="relative z-10 max-w-3xl flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1.5 rounded-full bg-primary/10 shadow-inner">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary font-semibold uppercase tracking-wider">Penerimaan Mahasiswa Baru 2025/2026 Dibuka</span>
+</div>
+<h2 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+            Siap Menjadi Bagian dari Talenta Digital Masa Depan?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Daftarkan diri Anda sekarang atau jadwalkan konsultasi dengan koordinator program studi untuk mengetahui kurikulum, beasiswa, dan prospek karir masa depan.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-4">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-[0_0_25px_rgba(77,142,255,0.4)] hover:shadow-[0_0_35px_rgba(77,142,255,0.6)]" href="#">
+<span>Daftar Sekarang (PMB Online)</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px] text-primary">download</span>
+<span>Unduh Brosur Kurikulum (PDF)</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script>
+  function filterNews(category) {
+    const buttons = document.querySelectorAll('.category-btn');
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-filter') === category) {
+        btn.classList.add('bg-surface-container-high', 'text-primary', 'font-semibold');
+        btn.classList.remove('text-on-surface-variant');
+      } else {
+        btn.classList.remove('bg-surface-container-high', 'text-primary', 'font-semibold');
+        btn.classList.add('text-on-surface-variant');
+      }
+    });
+
+    const items = document.querySelectorAll('.news-item');
+    items.forEach(item => {
+      if (category === 'semua' || item.getAttribute('data-cat') === category) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30"><div class="max-w-7xl mx-auto px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter mb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #3b82f6
+- Font: plusJakartaSans
+- Mode: dark
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XPoiGvbKVu6ttCGkkntzWY6-UNqeU07R5JmDgH1_5pT41-GOi14jDWb_60g9ZthYerexgn77rkJSvhax3fiE4oYM_Hfg36xVG3a8mGxK1OMo6xaVLkmnPPeV7jbdDDMBAw4ez26fkcSCkPtWAHeuAZrcu-LhDxm_wAw-VKp8s4t7famwL2cGS4BVu-ZkBIzd3Czy2gXlJWYvOrXC25UJE-OymS9vfrPGRD6z-hPLG6daJirBvtY2zLHeU"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Sistem Informasi</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Membentuk pemimpin teknologi dan arsitek transformasi digital masa depan melalui kurikulum terstandarisasi internasional, riset mutakhir, dan ekosistem industri terintegrasi.</p><div class="flex items-center gap-space-sm pt-space-xs"><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">terminal</span></div><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">hub</span></div><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">forum</span></div><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">podcasts</span></div></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Akademik &amp; Program</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a href="#">Sarjana Sistem Informasi (S1)</a></li><li class="hover:text-primary transition-colors"><a href="#">Peminatan Enterprise Architecture</a></li><li class="hover:text-primary transition-colors"><a href="#">Peminatan Data Intelligence</a></li><li class="hover:text-primary transition-colors"><a href="#">Peminatan Cybersecurity Management</a></li><li class="hover:text-primary transition-colors"><a href="#">Kurikulum OBE &amp; Merdeka Belajar</a></li><li class="hover:text-primary transition-colors"><a href="#">Sertifikasi Profesi Global</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Tautan Cepat</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a href="#">Portal SIAKAD</a></li><li class="hover:text-primary transition-colors"><a href="#">Learning Management System</a></li><li class="hover:text-primary transition-colors"><a href="#">Repositori Skripsi &amp; Riset</a></li><li class="hover:text-primary transition-colors"><a href="#">Kalender Akademik</a></li><li class="hover:text-primary transition-colors"><a href="#">Pusat Karir &amp; Magang</a></li><li class="hover:text-primary transition-colors"><a href="#">Beasiswa &amp; Finansial</a></li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Kontak &amp; Lokasi</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0 mt-1">location_on</span><span>Gedung Fakultas Ilmu Komputer, Lantai 4<br/>Jl. Kampus Terpadu Sains No. 108</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0">mail</span><span>is-info@campus.ac.id</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0">call</span><span>+62 (21) 7890-4321</span></div></div></div></div><div class="pt-space-md border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between gap-space-sm"><span class="font-body-sm text-body-sm text-outline">© 2025 Program Studi Sistem Informasi. All rights reserved.</span><div class="flex items-center gap-space-md font-body-sm text-body-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Akreditasi BAN-PT</a></div></div></div></footer></body></html><!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Sistem Informasi - Academic Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;scroll-behavior:smooth;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#002e6a","outline":"#8c909f","surface-container-high":"#242a3a","surface":"#0d1322","inverse-on-surface":"#2a3040","on-secondary-fixed":"#00174b","on-primary-fixed":"#001a42","surface-dim":"#0d1322","primary-fixed-dim":"#adc6ff","on-surface":"#dde2f8","tertiary-container":"#4c93e7","tertiary":"#a4c9ff","secondary-fixed-dim":"#b4c5ff","error":"#ffb4ab","on-primary-fixed-variant":"#004395","primary":"#adc6ff","primary-fixed":"#d8e2ff","inverse-primary":"#005ac2","surface-container-highest":"#2f3445","primary-container":"#4d8eff","surface-container-low":"#151b2b","on-error-container":"#ffdad6","error-container":"#93000a","surface-container-lowest":"#080e1d","surface-tint":"#adc6ff","on-secondary-container":"#cdd7ff","on-tertiary":"#00315d","secondary":"#b4c5ff","tertiary-fixed":"#d4e3ff","on-primary-container":"#00285d","surface-bright":"#33394a","surface-container":"#191f2f","secondary-fixed":"#dbe1ff","on-secondary":"#002a78","surface-variant":"#2f3445","on-background":"#dde2f8","on-secondary-fixed-variant":"#003ea8","on-surface-variant":"#c2c6d6","secondary-container":"#0053db","inverse-surface":"#dde2f8","on-tertiary-fixed-variant":"#004883","on-tertiary-container":"#002a51","on-tertiary-fixed":"#001c39","background":"#0d1322","on-error":"#690005","tertiary-fixed-dim":"#a4c9ff","outline-variant":"#424754"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-lg":"1.5rem","space-xs":"0.25rem","margin-mobile":"1.25rem","gutter-sm":"1rem","space-xl":"2.5rem",margin:"2rem","space-sm":"0.5rem","space-md":"1rem",gutter:"1.5rem"},fontFamily:{"headline-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-badge":["Plus Jakarta Sans"]},fontSize:{"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.025em",fontWeight:"700"}],"body-md":["16px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"headline-xl-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"800"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.02em",fontWeight:"600"}],"body-sm":["14px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"400"}],"label-badge":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl border-b border-outline-variant/30"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #3b82f6
+- Font: plusJakartaSans
+- Mode: dark
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XPoiGvbKVu6ttCGkkntzWY6-UNqeU07R5JmDgH1_5pT41-GOi14jDWb_60g9ZthYerexgn77rkJSvhax3fiE4oYM_Hfg36xVG3a8mGxK1OMo6xaVLkmnPPeV7jbdDDMBAw4ez26fkcSCkPtWAHeuAZrcu-LhDxm_wAw-VKp8s4t7famwL2cGS4BVu-ZkBIzd3Czy2gXlJWYvOrXC25UJE-OymS9vfrPGRD6z-hPLG6daJirBvtY2zLHeU"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Sistem Informasi</span><span class="font-label-md text-label-md text-primary tracking-widest uppercase">Faculty of Computer Science</span></div></div><nav class="hidden lg:flex items-center gap-space-xs p-1 rounded-xl bg-surface-container-low/70 border border-outline-variant/20" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg shadow-sm"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-surface-container-high text-primary font-bold rounded-lg shadow-sm" data-path="home" href="#">Home</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="tentang" href="#">Tentang</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="akademik" href="#">Akademik</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="keunggulan" href="#">Keunggulan</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="kegiatan" href="#">Kegiatan</a><a class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="kontak" href="#">Kontak</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-[0_0_20px_rgba(77,142,255,0.25)] hover:shadow-[0_0_28px_rgba(77,142,255,0.45)]" href="#explore"><span class="material-symbols-outlined text-[18px]">explore</span><span>Explore Program</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full text-on-surface">
+<!-- Top Ambient Glow Accents -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/4 w-[580px] h-[580px] bg-primary/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-10 w-[420px] h-[420px] bg-secondary-container/20 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<!-- ==================== 1. HERO SECTION ==================== -->
+<section class="max-w-7xl mx-auto px-margin pt-12 pb-24 lg:pt-16 lg:pb-28">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Left Column -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<!-- Glowing Badge -->
+<div class="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-primary/10 shadow-[inset_0_0_12px_rgba(77,142,255,0.18)]">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary tracking-wider uppercase">Program Studi Sistem Informasi</span>
+</div>
+<!-- Main Hero Typography -->
+<div class="flex flex-col gap-space-sm">
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+              Membangun <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-tertiary to-secondary">Talenta Digital</span> untuk Masa Depan
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Program studi unggulan yang memadukan teknologi informasi terkini, analisis sistem komprehensif, dan strategi bisnis modern untuk mencetak inovator masa depan di era kecerdasan artifisial.
+            </p>
+</div>
+<!-- Interactive CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-2">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-[0_0_24px_rgba(77,142,255,0.35)] hover:shadow-[0_0_36px_rgba(77,142,255,0.55)]" href="#tentang">
+<span>Kenali Program Studi</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg transition-all shadow-sm" href="#kegiatan">
+<span class="material-symbols-outlined text-[18px] text-primary">feed</span>
+<span>Lihat Informasi</span>
+</a>
+</div>
+<!-- Key Metrics Deck -->
+<div class="grid grid-cols-3 gap-space-md pt-6">
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<span class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">98%</span>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">Keterserapan Kerja Lulusan</span>
+</div>
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Unggul</span>
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">Akreditasi BAN-PT Resmi</span>
+</div>
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<span class="font-headline-xl text-headline-xl text-tertiary font-bold tracking-tight">45+</span>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">Mitra Tech Enterprise</span>
+</div>
+</div>
+</div>
+<!-- Hero Right Column (Lab Image & Floating Telemetry) -->
+<div class="lg:col-span-6 relative">
+<div class="relative w-full h-[520px] rounded-2xl overflow-hidden bg-surface-container-lowest shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+<!-- Background Image -->
+<img alt="Laboratorium Riset Komputer dan Analisis Sistem Informasi dengan mahasiswa berinteraksi di meja kerja cerdas" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1V_x7YTwpAY9WdO5vMkTdYcuXn0z8xLck9Juk-cUDPxVjMR0Rh_BNez4Cyo63fGiVT9JATsitF0ta8AgFuzKHGCthX8phvGt7qvZ2CpeVz-1-FRY7pab36_qTXP0yzKxeF-7Jwbd5qv3ohGQNhFqCeH9s9EPDqMUD-5ZwErDZkCpHR0cFDganP8kvwTDaU-ywk2qPATFqBwzRla3aEi25mMssqODTEFyWxmMmkVDezTIftLz2UQ-Bw3Lw"/>
+<!-- Deep Scrim / Linear Gradient -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<!-- Glowing Top Border Accent -->
+<div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-80"></div>
+<!-- Floating Pill 1: Top Left -->
+<div class="absolute top-6 left-6 flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface/90 backdrop-blur-md shadow-lg">
+<div class="w-6 h-6 rounded-lg bg-primary-container/30 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface leading-tight">Terakreditasi Unggul</span>
+<span class="font-label-badge text-label-badge text-outline">SK BAN-PT No. 4921/2023</span>
+</div>
+</div>
+<!-- Floating Badge 2: Top Right -->
+<div class="absolute top-6 right-6 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high/90 backdrop-blur-md shadow-md">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span>
+<span class="font-label-badge text-label-badge text-tertiary uppercase tracking-wider">Kurikulum Berbasis Industri</span>
+</div>
+<!-- Floating Card 3: Bottom Left -->
+<div class="absolute bottom-6 left-6 right-6 p-space-md rounded-xl bg-surface-container/90 backdrop-blur-xl shadow-xl flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">dns</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+<span class="font-label-lg text-label-lg text-on-surface truncate">Lab Enterprise AI &amp; Cloud Computing</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Sesi Kolaborasi Praktikum Real-Time Terjadwal</span>
+</div>
+</div>
+<span class="hidden md:inline-flex px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-badge text-label-badge tracking-wider">AKTIF</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 2. TENTANG PROGRAM STUDI ==================== -->
+<section class="w-full bg-surface-container-lowest/60 py-24" id="tentang">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left side: Narrative & Context -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-badge text-label-badge tracking-widest uppercase">
+              TENTANG KAMI
+            </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+              Membentuk Pemimpin Inovasi &amp; Arsitek Solusi Digital
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Program Studi Sistem Informasi berfokus pada jembatan strategis antara kapabilitas teknologi komputasi mutakhir dan kebutuhan organisasi skala enterprise. Kami tidak hanya mengajarkan sintaks pemrograman, melainkan cara menstrukturkan ekosistem sistem yang berdampak nyata.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Didukung laboratorium komputasi awan, pusat analisis data pintar, dan jejaring praktisi industri multinasional, mahasiswa kami terlatih mengarungi tantangan transformasi digital dengan integritas, inovasi, dan presisi teknis.
+            </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors group" href="#keunggulan">
+<span>Pelajari Struktur Kurikulum Lengkap</span>
+<span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Right side: Visi & Misi Cards -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Visi Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low shadow-md relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-3 mb-space-sm">
+<span class="w-8 h-8 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</span>
+<span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Visi Program Studi</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm text-on-surface font-medium leading-relaxed italic">
+                “Menjadi pusat keunggulan pendidikan sistem informasi berstandar internasional yang berorientasi pada kewirausahaan digital dan inovasi teknologi berkelanjutan pada tahun 2030.”
+              </blockquote>
+</div>
+<!-- Misi Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low shadow-md">
+<div class="flex items-center gap-3 mb-space-md">
+<span class="w-8 h-8 rounded-lg bg-secondary-container/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">flag</span>
+</span>
+<span class="font-label-lg text-label-lg text-secondary uppercase tracking-wider">Misi Utama</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Pendidikan Berbasis Proyek Industri</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menyelenggarakan proses pembelajaran berbasis Outcome-Based Education (OBE) dengan kurikulum yang terkalibrasi bersama asosiasi profesi dan tech giants.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Riset Aplikatif Solutif Skala Global</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menghasilkan publikasi riset bereputasi dan produk rekayasa sistem yang memecahkan masalah efisiensi publik serta keberlanjutan bisnis.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Sinergi Ekosistem Tech Startup &amp; Korporasi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mengembangkan kemitraan magang komprehensif, inkubasi bisnis rintisan teknologi mahasiswa, dan hilirisasi solusi digital terintegrasi.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 3. KEUNGGULAN PROGRAM STUDI ==================== -->
+<section class="max-w-7xl mx-auto px-margin py-24" id="keunggulan">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-badge text-label-badge tracking-widest uppercase mb-space-sm">
+          KEUNGGULAN UTAMA
+        </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mb-space-sm">
+          Mengapa Memilih Program Studi Sistem Informasi?
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Pilar komprehensif yang memadukan keunggulan rekayasa perangkat lunak, optimasi alur bisnis, serta kepemimpinan strategi digital berdaya saing global.
+        </p>
+</div>
+<!-- 4-Column Bento/Grid System -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Card 1: Teknologi Informasi -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 group-hover:bg-primary-container/30 flex items-center justify-center text-primary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">terminal</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Teknologi Informasi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Penguasaan stack komputasi awan modern, pipeline Big Data Analytics, arsitektur microservices enterprise, dan integrasi Artificial Intelligence terapan.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#Cloud</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#AI</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#EnterpriseSoftware</span>
+</div>
+</div>
+<!-- Card 2: Analisis Sistem -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container/20 group-hover:bg-tertiary-container/30 flex items-center justify-center text-tertiary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">account_tree</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Analisis Sistem</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Metodologi analisis kebutuhan bisnis mendalam, Business Process Reengineering (BPR), pemodelan UML &amp; BPMN, serta perancangan arsitektur enterprise terstruktur.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#SystemAnalysis</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#BPMN</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#EnterpriseArch</span>
+</div>
+</div>
+<!-- Card 3: Dunia Bisnis -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 group-hover:bg-secondary-container/30 flex items-center justify-center text-secondary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">monitoring</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Dunia Bisnis</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Perumusan strategi TI, manajemen produk digital, tata kelola IT berbasis framework COBIT &amp; ITIL, serta inkubasi technopreneurship startup berskala tinggi.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#DigitalProduct</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#ITGovernance</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#Technopreneur</span>
+</div>
+</div>
+<!-- Card 4: Kolaborasi Industri -->
+<div class="group flex flex-col justify-between p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-[0_0_30px_rgba(77,142,255,0.18)]">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-primary/20 group-hover:bg-primary/30 flex items-center justify-center text-primary mb-space-md transition-colors">
+<span class="material-symbols-outlined text-[26px]">groups</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Kolaborasi Industri</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Kemitraan strategis tech unicorns ternama, program magang bersertifikat MSIB, bimbingan langsung praktisi C-Level, dan proyek capstone industri nyata.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#MSIB</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#IndustryMentor</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-label-badge text-label-badge">#CapstoneRealWorld</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 4. INFORMASI DAN KEGIATAN TERBARU ==================== -->
+<section class="w-full bg-surface-container-lowest/70 py-24" id="kegiatan">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-12">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-badge text-label-badge tracking-widest uppercase mb-2">
+              UPDATE &amp; AKTIVITAS
+            </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+              Informasi &amp; Kegiatan Terbaru
+            </h2>
+</div>
+<!-- Category Filter Pills (Functional micro-interaction) -->
+<div class="inline-flex p-1 rounded-xl bg-surface-container-low shadow-sm" id="filter-container">
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg bg-surface-container-high text-primary font-semibold transition-colors" data-filter="semua" onclick="filterNews('semua')">Semua</button>
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="berita" onclick="filterNews('berita')">Berita Terkini</button>
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="kegiatan" onclick="filterNews('kegiatan')">Kegiatan Mahasiswa</button>
+<button class="category-btn px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="prestasi" onclick="filterNews('prestasi')">Prestasi</button>
+</div>
+</div>
+<!-- 3-Column Visual Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Berita -->
+<div class="news-item group flex flex-col rounded-2xl bg-surface-container-low overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-cat="berita">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern tech executive lecturing university students inside an auditorium with panoramic screens displaying enterprise architecture diagrams and artificial intelligence neural network models, dramatic blue stage lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6dUYvtTrbejPEE2AU2TexKSmZHjwdXyey5afkFcTFj9Vi5DJDittrjS8NOMAM_erVFTUv1falFB_Vk57jvnlEibumxU7QVdXJwUWKjefbPeDJaHG-kvM5YehZo9pmPS-LbwQizIvyTbPpajzNi1FoBXfGYbEM3L7aYnzKifeQxL_SrJRgjoGQZraU5h3If73WaTTKzoAA5Mx3ke7oxOqwnsUNiTGosbeyWGHBvPxvnHLxS5FK_-y3"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md text-primary font-label-badge text-label-badge">KULIAH TAMU</span>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>14 Oktober 2024</span>
+<span>•</span>
+<span>Divisi Enterprise Tech</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-space-xs">
+                  Transformasi AI dalam Enterprise Architecture bersama CTO Perusahaan Unicorn
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-space-md">
+                  Mengupas bagaimana implementasi Large Language Models dan automated data pipelines mengubah pengambilan keputusan di arsitektur perusahaan skala masif.
+                </p>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors" href="#">
+<span>Baca Ulasan Lengkap</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Kegiatan -->
+<div class="news-item group flex flex-col rounded-2xl bg-surface-container-low overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-cat="kegiatan">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intensive collaborative hackathon in a dark cyber lab room with neon blue ambient glow, university software engineering students working late with laptops, dual monitors displaying code and graphs." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqRMuLu-HqzSyIzD1oyekZzJp9lsw6jN83skQy3iDY1tM9dQV1lflCjYcgpqWpPI2o_2Gh3YcD5GyxZnM0_Kvk_RLxxKBTvpnrZ9PqWQXVLGOQdrbHhCJlnvnzcjAg-iUedlMMVzmpnsFeZhhSrqUZnciBuSXUrkai4ohkubkHvE9RLUAIPb0rhAiYIS8nZQAdrlRxN-Cpr1ihKvd5GrEOSfefgD5XTq9CxsPxQQcKMGb6ow1NqTth"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md text-tertiary font-label-badge text-label-badge">HACKATHON</span>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>28 September 2024</span>
+<span>•</span>
+<span>Himpunan Mahasiswa SI</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-space-xs">
+                  SI Hackathon 2024: Solusi Digital Cerdas untuk Smart Campus &amp; Green Energy
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-space-md">
+                  Kompetisi rekayasa produk 48 jam tanpa henti menghasilkan 18 purwarupa IoT dan analitika berbasis AI untuk efisiensi energi kampus ramah lingkungan.
+                </p>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors" href="#">
+<span>Dokumentasi &amp; Pemenang</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3: Prestasi -->
+<div class="news-item group flex flex-col rounded-2xl bg-surface-container-low overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-cat="prestasi">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="University student tech delegation holding trophies and innovation award certificate on a grand auditorium stage, smart casual attire, dark blue corporate background with championship banners." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt2U1sOAiQ1Ui0x4jnZlwF4_nYgDRyIWE3IHYFw-riLtsIpDftmXbpERqZHEwUgrnDBaUrhxTqkUR7_omi8OiHzw7ywgr8cZQbpYesaMmwqMRoYqQydOQ2PUWGGQ1zWpwA4cMx55C4n9a2r6KurLtrgLiynwkHEXvQQRAkECwD8Wp-pNaXk9Fn9manDWs31Wg4a4u5qykSyzAU9rq5ctC8SIv8gj-ud4CvIaUQfO7tbaDNWzMy99L7"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md text-secondary font-label-badge text-label-badge">PRESTASI EMAS</span>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>05 September 2024</span>
+<span>•</span>
+<span>Kompetisi Nasional ITB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-space-xs">
+                  Juara 1 National Business IT Case Competition di ITB
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-space-md">
+                  Tim mahasiswa Sistem Informasi menyabet medali emas lewat inovasi rantai pasok berbasis smart contract blockchain untuk ketahanan pangan nasional.
+                </p>
+</div>
+<a class="inline-flex items-center gap-1.5 text-primary hover:text-tertiary font-label-lg text-label-lg transition-colors" href="#">
+<span>Profil Tim Juara</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 5. CALL TO ACTION (CTA) ==================== -->
+<section class="max-w-7xl mx-auto px-margin py-20">
+<div class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-surface-container via-surface-container-low to-surface-container-lowest p-10 md:p-16 lg:p-20 shadow-[0_20px_50px_rgba(0,0,0,0.6)]">
+<!-- Ambient Radial Highlight -->
+<div class="absolute -right-20 -bottom-20 w-[480px] h-[480px] bg-primary-container/20 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute left-1/4 top-0 w-80 h-80 bg-secondary-container/20 rounded-full blur-[90px] pointer-events-none"></div>
+<div class="relative z-10 max-w-3xl flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1.5 rounded-full bg-primary/10 shadow-inner">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary font-semibold uppercase tracking-wider">Penerimaan Mahasiswa Baru 2025/2026 Dibuka</span>
+</div>
+<h2 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+            Siap Menjadi Bagian dari Talenta Digital Masa Depan?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Daftarkan diri Anda sekarang atau jadwalkan konsultasi dengan koordinator program studi untuk mengetahui kurikulum, beasiswa, dan prospek karir masa depan.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-4">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-[0_0_25px_rgba(77,142,255,0.4)] hover:shadow-[0_0_35px_rgba(77,142,255,0.6)]" href="#">
+<span>Daftar Sekarang (PMB Online)</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px] text-primary">download</span>
+<span>Unduh Brosur Kurikulum (PDF)</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script>
+  function filterNews(category) {
+    const buttons = document.querySelectorAll('.category-btn');
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-filter') === category) {
+        btn.classList.add('bg-surface-container-high', 'text-primary', 'font-semibold');
+        btn.classList.remove('text-on-surface-variant');
+      } else {
+        btn.classList.remove('bg-surface-container-high', 'text-primary', 'font-semibold');
+        btn.classList.add('text-on-surface-variant');
+      }
+    });
+
+    const items = document.querySelectorAll('.news-item');
+    items.forEach(item => {
+      if (category === 'semua' || item.getAttribute('data-cat') === category) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30"><div class="max-w-7xl mx-auto px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter mb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #3b82f6
+- Font: plusJakartaSans
+- Mode: dark
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XPoiGvbKVu6ttCGkkntzWY6-UNqeU07R5JmDgH1_5pT41-GOi14jDWb_60g9ZthYerexgn77rkJSvhax3fiE4oYM_Hfg36xVG3a8mGxK1OMo6xaVLkmnPPeV7jbdDDMBAw4ez26fkcSCkPtWAHeuAZrcu-LhDxm_wAw-VKp8s4t7famwL2cGS4BVu-ZkBIzd3Czy2gXlJWYvOrXC25UJE-OymS9vfrPGRD6z-hPLG6daJirBvtY2zLHeU"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Sistem Informasi</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Membentuk pemimpin teknologi dan arsitek transformasi digital masa depan melalui kurikulum terstandarisasi internasional, riset mutakhir, dan ekosistem industri terintegrasi.</p><div class="flex items-center gap-space-sm pt-space-xs"><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">terminal</span></div><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">hub</span></div><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">forum</span></div><div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary hover:text-on-surface hover:bg-surface-container-highest transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">podcasts</span></div></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Akademik &amp; Program</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a href="#">Sarjana Sistem Informasi (S1)</a></li><li class="hover:text-primary transition-colors"><a href="#">Peminatan Enterprise Architecture</a></li><li class="hover:text-primary transition-colors"><a href="#">Peminatan Data Intelligence</a></li><li class="hover:text-primary transition-colors"><a href="#">Peminatan Cybersecurity Management</a></li><li class="hover:text-primary transition-colors"><a href="#">Kurikulum OBE &amp; Merdeka Belajar</a></li><li class="hover:text-primary transition-colors"><a href="#">Sertifikasi Profesi Global</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Tautan Cepat</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a href="#">Portal SIAKAD</a></li><li class="hover:text-primary transition-colors"><a href="#">Learning Management System</a></li><li class="hover:text-primary transition-colors"><a href="#">Repositori Skripsi &amp; Riset</a></li><li class="hover:text-primary transition-colors"><a href="#">Kalender Akademik</a></li><li class="hover:text-primary transition-colors"><a href="#">Pusat Karir &amp; Magang</a></li><li class="hover:text-primary transition-colors"><a href="#">Beasiswa &amp; Finansial</a></li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Kontak &amp; Lokasi</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0 mt-1">location_on</span><span>Gedung Fakultas Ilmu Komputer, Lantai 4<br/>Jl. Kampus Terpadu Sains No. 108</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0">mail</span><span>is-info@campus.ac.id</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0">call</span><span>+62 (21) 7890-4321</span></div></div></div></div><div class="pt-space-md border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between gap-space-sm"><span class="font-body-sm text-body-sm text-outline">© 2025 Program Studi Sistem Informasi. All rights reserved.</span><div class="flex items-center gap-space-md font-body-sm text-body-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Akreditasi BAN-PT</a></div></div></div></footer></body></html>
