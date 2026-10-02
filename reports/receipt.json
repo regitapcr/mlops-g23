@@ -1,0 +1,29 @@
+{
+  "merchant": "PT Kopi Makmur",
+  "tanggal": "19 Agustus 2023",
+  "item": [
+    {
+      "nama_kopi": "Arabika Mandheling",
+      "jumlah": 10,
+      "harga_satuan": 80000
+    },
+    {
+      "nama_kopi": "Robusta Lampung",
+      "jumlah": 15,
+      "harga_satuan": 65000
+    },
+    {
+      "nama_kopi": "Liberika Aceh",
+      "jumlah": 5,
+      "harga_satuan": 90000
+    },
+    {
+      "nama_kopi": "Excelsa Sulawesi",
+      "jumlah": 8,
+      "harga_satuan": 75000
+    }
+  ],
+  "subtotal": 2825000,
+  "pajak": 0,
+  "total": 2740250
+}
